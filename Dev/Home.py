@@ -235,7 +235,7 @@ import uvicorn
 import os
 
 # call the app
-app = FastAPI(title="Sepsis Prediction API")
+app = FastAPI(title="Sepsis Prediction With FastAPI")
 
 # Load the models and scaler
 def load_models_and_scaler():
